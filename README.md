@@ -49,10 +49,7 @@ Before running the project, please ensure that you have the following prerequisi
 
 Once you have the prerequisites set up, follow these steps to run the project:
 ## step 1: Clone repository
-1. Clone the repository to your local machine using the following command:
-
-```bash
-   git clone https://github.com/Gaurang140/Alzheimer-s-Disease-Detection.git
+1. Clone the repository to your local machine 
 
 ```
 ## step 2: Create a enviroment
