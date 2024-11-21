@@ -1,1 +1,4 @@
+1.create python environment in backend to set the environment variable for the 
+ backend which will give you env and pycache folders.
 
+2. install npm in frontend to create json and node modules .
