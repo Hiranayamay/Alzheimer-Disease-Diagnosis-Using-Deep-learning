@@ -18,10 +18,6 @@
 
 
 
-## Demo Video
-
-[![Demo Video](https://img.youtube.com/vi/VzRCK9JzmP8/maxresdefault.jpg)](https://www.youtube-nocookie.com/embed/VzRCK9JzmP8)
-
 
 
 
@@ -35,20 +31,13 @@
 - Python
 - TensorFlow (Machine learning framework for building neural networks)
 - NumPy (Numerical computing library)
+- React (For frontend development)
 - Matplotlib (Data visualization library)
 - Flask (Python web framework for building web applications)
 - Flask-Cors (Extension for handling Cross-Origin Resource Sharing in Flask)
-- MongoDB (NoSQL database used for storing data)
 - DVC (Data Version Control for managing data pipelines and experiments)
 - MLflow (Open-source platform for managing the machine learning lifecycle)
 - Docker (Containerization platform for packaging applications and dependencies)
-
-
-## Infrastructure Required
-
-- AWS EC2: Scalable virtual servers for hosting and running the application
-- AWS ECR: Container registry for storing Docker images
-- Git Actions: Continuous integration and delivery automation tool
 
 
 ## How to Run?
@@ -57,7 +46,6 @@ Before running the project, please ensure that you have the following prerequisi
 
 1. **MongoDB**: Make sure you have MongoDB installed on your local system, along with MongoDB Compass for data storage. You can download MongoDB from the official website and follow the installation instructions.
 
-2. **AWS Account**: You will need an AWS account to access services like  AWS ECR, and AWS EC2 instances. If you don't have an AWS account, you can create one on the AWS website.
 
 Once you have the prerequisites set up, follow these steps to run the project:
 ## step 1: Clone repository
