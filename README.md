@@ -35,9 +35,7 @@
 - Matplotlib (Data visualization library)
 - Flask (Python web framework for building web applications)
 - Flask-Cors (Extension for handling Cross-Origin Resource Sharing in Flask)
-- DVC (Data Version Control for managing data pipelines and experiments)
 - MLflow (Open-source platform for managing the machine learning lifecycle)
-- Docker (Containerization platform for packaging applications and dependencies)
 
 
 ## How to Run?
@@ -114,24 +112,6 @@ set MLFLOW_TRACKING_PASSWORD= password
 
 Replace <username> and <password> with your Dagshub credentials. This will configure MLflow to use Dagshub as the external tracking server.
 
-# DVC
-
-
-**Initialize DVC**: Run the following command to initialize DVC:
-
-```bash
-   dvc init
-```
-This will set up DVC and create the necessary configuration files.
-
-
-**Reproduce the DVC Pipeline**: Execute the following command to reproduce the DVC pipeline and ensure all the dependencies and data are in place:
-```bash	
-dvc repro
-```
-This command will run the defined pipeline steps and fetch the required data.
-
-**Visualize the DVC Pipeline Graph**: To get a visual representation of the DVC pipeline, use the following command:
 
 ```bash	
 dvc dag 
