@@ -112,8 +112,3 @@ set MLFLOW_TRACKING_PASSWORD= password
 
 Replace <username> and <password> with your Dagshub credentials. This will configure MLflow to use Dagshub as the external tracking server.
 
-
-```bash	
-dvc dag 
-```
-This will display a graph that shows the dependencies and relationships between the stages of the pipeline.
