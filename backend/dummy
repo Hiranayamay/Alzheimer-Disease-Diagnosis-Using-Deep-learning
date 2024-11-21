@@ -2,3 +2,6 @@
  backend which will give you env and pycache folders.
 
 2. install npm in frontend to create json and node modules .
+
+3. train the model with train.py to get the saved model.
+
